@@ -18,9 +18,9 @@ export default class NewsSection extends Component {
   options = {
     method: 'GET',
     url: 'https://api.newscatcherapi.com/v2/search',
-    params: {q: 'Crypto', lang: 'en', sort_by: 'relevancy',page_size:90, page:1},
+    params: {q: 'Cryptocurrency', lang: 'en', sort_by: 'relevancy',page_size:80, page:1},
     headers: {
-      'x-api-key': 'BVnHVk5yoL-QFz0_wPkpf3b3-GNOGLP585ncdRQ5A64'
+      'x-api-key': '6Lw9EW1x_m4IR7Y7aFiU0qOqCGoWCxQxWuZdLoFXFBQ'
     }
   };
   
